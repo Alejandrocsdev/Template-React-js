@@ -1,0 +1,31 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  color: var(--primary-text);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+/* Root */
+
+:root {
+  --primary-text: black;
+}
