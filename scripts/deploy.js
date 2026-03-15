@@ -22,7 +22,7 @@ if (!fs.existsSync(distPath)) {
 try {
   console.log(`Deploying to ${targetPath}`);
 
-  execSync(`sudo rsync -av --delete ${distPath}/ ${targetPath}/`, {
+  execSync(`rsync -av --delete ${distPath}/ ${targetPath}/`, {
     stdio: 'inherit',
   });
 
