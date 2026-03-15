@@ -32,7 +32,7 @@ const Home = () => {
 
   return (
     <main className={S.main}>
-      <h1>Home Page</h1>
+      <h1>Home Page-Test</h1>
 
       <button onClick={onUsers}>Fetch users</button>
       <button onClick={onArticles}>Fetch articles</button>
