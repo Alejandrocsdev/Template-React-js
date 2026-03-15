@@ -27,7 +27,7 @@ jobs:
             git pull origin main --quiet
 
             echo "Installing dependencies"
-            npm ci --omit=dev --silent
+            npm ci --silent
 
             echo "Build & Deploy"
             npm run deploy
